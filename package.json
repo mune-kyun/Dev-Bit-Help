@@ -16,6 +16,10 @@
       {
         "command": "vscode-camel-kebab.camelToKebab",
         "title": "Camel to Kebab"
+      },
+      {
+        "command": "vscode-camel-kebab.kebabToCamel",
+        "title": "Kebab to Camel"
       }
     ]
   },
