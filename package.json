@@ -1,7 +1,7 @@
 {
-  "name": "vscode-camel-kebab",
-  "displayName": "vscode-camel-kebab",
-  "description": "Convert camel to kebab and vice versa",
+  "name": "dev-bit-help",
+  "displayName": "Dev Bit Help",
+  "description": "Help with trivial things in programming",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.84.0"
@@ -14,11 +14,11 @@
   "contributes": {
     "commands": [
       {
-        "command": "vscode-camel-kebab.camelToKebab",
+        "command": "dev-bit-help.camelToKebab",
         "title": "Camel to Kebab"
       },
       {
-        "command": "vscode-camel-kebab.kebabToCamel",
+        "command": "dev-bit-help.kebabToCamel",
         "title": "Kebab to Camel"
       }
     ]

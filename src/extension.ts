@@ -3,13 +3,11 @@ import * as vscode from "vscode";
 import convertService from "./convert";
 
 export function activate(context: vscode.ExtensionContext) {
-  console.log(
-    'Congratulations, your extension "vscode-camel-kebab" is now active!'
-  );
+  console.log('Congratulations, your extension "dev-bit-help" is now active!');
 
   // Camel to Kebab
   context.subscriptions.push(
-    vscode.commands.registerCommand("vscode-camel-kebab.camelToKebab", () => {
+    vscode.commands.registerCommand("dev-bit-help.camelToKebab", () => {
       const editor = vscode.window.activeTextEditor;
 
       if (editor) {
@@ -30,7 +28,7 @@ export function activate(context: vscode.ExtensionContext) {
 
   // Kebab to Camel
   context.subscriptions.push(
-    vscode.commands.registerCommand("vscode-camel-kebab.kebabToCamel", () => {
+    vscode.commands.registerCommand("dev-bit-help.kebabToCamel", () => {
       const editor = vscode.window.activeTextEditor;
 
       if (editor) {
