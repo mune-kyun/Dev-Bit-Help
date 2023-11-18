@@ -20,6 +20,14 @@
       {
         "command": "dev-bit-help.kebabToCamel",
         "title": "Kebab to Camel"
+      },
+      {
+        "command": "dev-bit-help.prependPublic",
+        "title": "Prepend Public"
+      },
+      {
+        "command": "dev-bit-help.prependPrivate",
+        "title": "Prepend Private"
       }
     ]
   },
